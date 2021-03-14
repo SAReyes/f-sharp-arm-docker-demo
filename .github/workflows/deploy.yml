@@ -13,7 +13,6 @@ jobs:
         working-directory: .
         run: |
           pwd
-          chmod u+x ./qemu.sh
           sudo ./qemu.sh
       -
         name: Set up Docker Buildx
