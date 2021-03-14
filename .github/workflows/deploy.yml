@@ -9,12 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -
-        shell: bash
-        env:
-          DOCKER_USER: ${{ DOCKER.DOCKERHUB_USERNAME }}
-        run: |
-          echo "My docker username: $DOCKER_USER"
-      -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v1
       -
