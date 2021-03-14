@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{81330402-C549-49ED-9FB8-148A2B00F5FD}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HelloApp", "src\HelloApp\HelloApp.fsproj", "{EC880DF9-0AE4-46FF-B25A-3E212AF5C414}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC880DF9-0AE4-46FF-B25A-3E212AF5C414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC880DF9-0AE4-46FF-B25A-3E212AF5C414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC880DF9-0AE4-46FF-B25A-3E212AF5C414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC880DF9-0AE4-46FF-B25A-3E212AF5C414}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC880DF9-0AE4-46FF-B25A-3E212AF5C414} = {81330402-C549-49ED-9FB8-148A2B00F5FD}
+	EndGlobalSection
+EndGlobal
