@@ -10,6 +10,7 @@ jobs:
     steps:
       -
         name: Set up QEMU
+        working-directory: .
         run: |
           pwd
           chmod u+x ./qemu.sh
