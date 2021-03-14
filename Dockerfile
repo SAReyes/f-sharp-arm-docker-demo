@@ -10,4 +10,4 @@ FROM  mcr.microsoft.com/dotnet/runtime:5.0-buster-slim-arm32v7
 WORKDIR /app
 COPY --from=build /app .
 
-ENTRYPOINT ["./HelloApp"]
+ENTRYPOINT ["dotnet", "HelloApp.dll"]
