@@ -11,9 +11,7 @@ jobs:
       -
         name: Set up QEMU
         working-directory: .
-        run: |
-          pwd
-          sudo ./qemu.sh
+        run: sudo bash ./qemu.sh
       -
         name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
