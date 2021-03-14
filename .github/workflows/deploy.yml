@@ -10,7 +10,7 @@ jobs:
     steps:
       -
         name: Set up QEMU
-        working-directory: .
+        working-directory: ./infrastructure
         run: sudo bash ./qemu.sh
       -
         name: Set up Docker Buildx
